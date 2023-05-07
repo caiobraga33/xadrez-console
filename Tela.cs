@@ -10,7 +10,6 @@ namespace xadrez_console
             {
                 for (int j = 0; j < tab.colunas; j++)
                 {
-                    System.Console.Write(tab.peca(i, j) + "");
                     if (tab.peca(i, j) == null)
                     {
                         System.Console.Write("- ");
